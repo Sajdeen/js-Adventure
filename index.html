@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Adventure</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+    #game-container {
+      margin: 50px auto;
+      width: 80%;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    #output {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+      border-radius: 5px;
+    }
+    .code-input {
+      width: 100%;
+      padding: 10px;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+
+<div id="game-container">
+  <h1>JS Adventure: Code Your Way</h1>
+  <p id="puzzle-description">Solve the puzzle by entering the correct JavaScript code!</p>
+  
+  <textarea id="codeInput" class="code-input" rows="5" placeholder="Write your JavaScript code here..."></textarea>
+  
+  <button id="runCodeBtn">Run Code</button>
+  
+  <div id="output">Your output will appear here...</div>
+</div>
+
+<!-- Single JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
